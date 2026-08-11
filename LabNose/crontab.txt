@@ -1,0 +1,2 @@
+# copy and paste this after executing "crontab -e" in raspberry pi
+@reboot sleep 10 && /home/labnose/run.sh >> /home/labnose/test2.log 2>&1

@@ -1,0 +1,23 @@
+# Credentials / secrets
+.env
+*.env
+secrets.sh
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+myenv/
+venv/
+.venv/
+
+# Runtime data
+# NOTE: readings.db, test2.log, and bme688_baseline.txt are intentionally
+# committed as placeholder/sample files — not ignored here.
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
